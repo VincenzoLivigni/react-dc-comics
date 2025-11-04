@@ -17,8 +17,8 @@ export default function Main() {
 
             <section className="imgs d-flex align-items-center">
                 <div className="container">
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <img className="imgSection" src={digital} alt="#" />
                             <span>DIGITAL COMICS</span>
                         </div>
@@ -26,15 +26,15 @@ export default function Main() {
                             <img className="imgSection col-md-2" src={merchandise} alt="#" />
                             <span>DC MERCHANDISE</span>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img className="imgSection col-md-2" src={subscription} alt="#" />
                             <span>SUBSCRIPTION</span>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img className="imgLocator col-md-2" src={locator} alt="#" />
                             <span>COMIC SHOP LOCATOR</span>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img className="imgSection col-md-2" src={visa} alt="#" />
                             <span>DC POWER VISA</span>
                         </div>
