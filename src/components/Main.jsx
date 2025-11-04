@@ -1,6 +1,8 @@
 export default function Main() {
 
     return (
-        <main>Main</main>
+        <main>
+
+        </main>
     )
 }
