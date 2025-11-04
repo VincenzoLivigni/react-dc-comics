@@ -1,3 +1,10 @@
+
+import digital from '../assets/img/buy-comics-digital-comics.png';
+import merchandise from '../assets/img/buy-comics-merchandise.png';
+import subscription from '../assets/img/buy-comics-subscriptions.png';
+import locator from '../assets/img/buy-comics-shop-locator.png';
+import visa from '../assets/img/buy-dc-power-visa.svg';
+
 export default function Main() {
 
     return (
@@ -8,7 +15,32 @@ export default function Main() {
                 </div>
             </section>
 
-
+            <section className="imgs d-flex align-items-center">
+                <div className="container">
+                    <div class="row">
+                        <div class="col">
+                            <img className="imgSection" src={digital} alt="#" />
+                            <span>DIGITAL COMICS</span>
+                        </div>
+                        <div class="col">
+                            <img className="imgSection col-md-2" src={merchandise} alt="#" />
+                            <span>DC MERCHANDISE</span>
+                        </div>
+                        <div class="col">
+                            <img className="imgSection col-md-2" src={subscription} alt="#" />
+                            <span>SUBSCRIPTION</span>
+                        </div>
+                        <div class="col">
+                            <img className="imgLocator col-md-2" src={locator} alt="#" />
+                            <span>COMIC SHOP LOCATOR</span>
+                        </div>
+                        <div class="col">
+                            <img className="imgSection col-md-2" src={visa} alt="#" />
+                            <span>DC POWER VISA</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }
