@@ -27,7 +27,7 @@ ul {
   list-style-type: none;
 }
 
-/* utils */
+/* header utils */
 .container {
   max-width: 70%;
 }
@@ -44,4 +44,11 @@ ul {
   text-decoration: underline;
   text-underline-offset: 2.8rem;
   text-decoration-thickness: 5px
+}
+
+/* main utils */
+.content {
+  background-color: var(--dc-dark);
+  height: 120px;
+  color: var(--dc-white)
 }
