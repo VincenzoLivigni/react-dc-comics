@@ -22,7 +22,7 @@ export default function Main() {
                             <img className="imgSection" src={digital} alt="#" />
                             <span>DIGITAL COMICS</span>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img className="imgSection col-md-2" src={merchandise} alt="#" />
                             <span>DC MERCHANDISE</span>
                         </div>
