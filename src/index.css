@@ -71,9 +71,44 @@ h6 {
 }
 
 /* main utils */
+.container-comic {
+  width: 90%;
+  margin: auto;
+}
+
+.card {
+  background-color: var(--dc-dark);
+  height: 200px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.img-container {
+  width: 100%;
+  height: 200px;
+  overflow-y: hidden;
+}
+
+img.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-title {
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
+  color: var(--dc-white)
+}
+
+.comic {
+  padding: 3rem 0
+}
+
 .content {
   background-color: var(--dc-dark);
-  height: 120px;
   color: var(--dc-white);
 }
 

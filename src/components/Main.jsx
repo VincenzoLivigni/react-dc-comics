@@ -4,19 +4,17 @@ import merchandise from '../assets/img/buy-comics-merchandise.png';
 import subscription from '../assets/img/buy-comics-subscriptions.png';
 import locator from '../assets/img/buy-comics-shop-locator.png';
 import visa from '../assets/img/buy-dc-power-visa.svg';
+import Comics from './Comics';
 
 
 
 
 export default function Main() {
-
     return (
         <main>
-            <section className="content d-flex align-items-center">
-                <div className="container">
-                    <h2>Content goes here</h2>
-                </div>
-            </section>
+            <img className="imgLocator" src={locator} alt="#" />
+
+            <Comics />
 
             <section className="imgs d-flex align-items-center">
                 <div className="container">

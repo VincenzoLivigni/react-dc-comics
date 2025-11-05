@@ -6,13 +6,13 @@ export default function Header() {
             id: 1,
             link: '#',
             text: 'CHARACTERS',
-            is_active: true
+            is_active: false
         },
         {
             id: 2,
             link: '#',
             text: 'COMICS',
-            is_active: false
+            is_active: true
         },
         {
             id: 3,
