@@ -155,6 +155,8 @@ const comics = [
 
 export default function Comics() {
     return (
+
+
         <section className="content d-flex align-items-center">
             <div className="container-comic">
                 <div className='comic row row-cols-1 row-cols-sm-1 row-cols-md-4 row-cols-lg-6 g-3'>

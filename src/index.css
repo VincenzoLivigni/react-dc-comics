@@ -71,6 +71,12 @@ h6 {
 }
 
 /* main utils */
+img.jumbo {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
 .container-comic {
   width: 90%;
   margin: auto;
@@ -86,8 +92,8 @@ h6 {
 }
 
 .img-container {
-  width: 100%;
   height: 200px;
+  width: 200px;
   overflow-y: hidden;
 }
 
