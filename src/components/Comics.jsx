@@ -157,7 +157,7 @@ export default function Comics() {
     return (
 
 
-        <section className="content d-flex align-items-center">
+        <section className="content d-flex align-items-center pb-4">
             <div className="container-comic">
                 <div className='comic row row-cols-1 row-cols-sm-1 row-cols-md-4 row-cols-lg-6 g-3'>
                     {
@@ -177,6 +177,8 @@ export default function Comics() {
                     }
                 </div>
             </div>
+
+            <button className="button-comics">LOAD MORE</button>
         </section>
     )
 }

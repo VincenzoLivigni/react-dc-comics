@@ -32,7 +32,8 @@ span {
   color: var(--dc-white);
 }
 
-button {
+button,
+.button-comics {
   background-color: var(--dc-secondary);
   color: var(--dc-white);
   border: solid 2px var(--dc-primary);
@@ -41,6 +42,17 @@ button {
 
 button:hover {
   background-color: var(--dc-primary);
+}
+
+.button-comics {
+  background-color: var(--dc-primary);
+  font-weight: bold;
+  width: 200px;
+  font-size: 0.8rem;
+}
+
+.button-comics:hover {
+  background-color: var(--dc-secondary);
 }
 
 h5 {
@@ -71,6 +83,18 @@ h6 {
 }
 
 /* main utils */
+.etichetta {
+  background-color: var(--dc-primary);
+  color: var(--dc-white);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px 15px;
+  position: absolute;
+  top: 57%;
+  left: 14%;
+  z-index: 3;
+}
+
 img.jumbo {
   width: 100%;
   position: relative;
@@ -78,7 +102,7 @@ img.jumbo {
 }
 
 .container-comic {
-  width: 90%;
+  width: 70%;
   margin: auto;
 }
 
@@ -92,8 +116,8 @@ img.jumbo {
 }
 
 .img-container {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   overflow-y: hidden;
 }
 
@@ -116,6 +140,10 @@ img.card-img-top {
 .content {
   background-color: var(--dc-dark);
   color: var(--dc-white);
+  flex-direction: column;
+  position: absolute;
+  top: 60%;
+  z-index: 2;
 }
 
 .imgs {
@@ -137,11 +165,6 @@ img.card-img-top {
   gap: 10px;
 }
 
-.jumbo {
-  width: 27%;
-  gap: 15px;
-}
-
 /* footer utils */
 .listaFooter {
   color: #939393;
@@ -152,7 +175,11 @@ img.card-img-top {
 .footer-bottom {
   height: 100px;
   background-color: var(--dc-secondary);
+}
 
+.footer-nav {
+  width: 27%;
+  gap: 10px;
 }
 
 .footer-right>img {

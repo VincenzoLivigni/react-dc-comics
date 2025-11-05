@@ -10,7 +10,7 @@ export default function Footer() {
         <footer>
             <div className="container">
                 <div className="footer-top py-4">
-                    <div className="jumbo d-flex">
+                    <div className="footer-nav d-flex">
                         <div className="col-4 gap-1">
                             <ul className="listaFooter">
                                 <h6>DC COMICS</h6>
