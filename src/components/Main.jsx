@@ -5,6 +5,9 @@ import subscription from '../assets/img/buy-comics-subscriptions.png';
 import locator from '../assets/img/buy-comics-shop-locator.png';
 import visa from '../assets/img/buy-dc-power-visa.svg';
 
+
+
+
 export default function Main() {
 
     return (
@@ -23,19 +26,19 @@ export default function Main() {
                             <span>DIGITAL COMICS</span>
                         </div>
                         <div className="col">
-                            <img className="imgSection col-md-2" src={merchandise} alt="#" />
+                            <img className="imgSection" src={merchandise} alt="#" />
                             <span>DC MERCHANDISE</span>
                         </div>
                         <div className="col">
-                            <img className="imgSection col-md-2" src={subscription} alt="#" />
+                            <img className="imgSection" src={subscription} alt="#" />
                             <span>SUBSCRIPTION</span>
                         </div>
                         <div className="col">
-                            <img className="imgLocator col-md-2" src={locator} alt="#" />
+                            <img className="imgLocator" src={locator} alt="#" />
                             <span>COMIC SHOP LOCATOR</span>
                         </div>
                         <div className="col">
-                            <img className="imgSection col-md-2" src={visa} alt="#" />
+                            <img className="imgSection" src={visa} alt="#" />
                             <span>DC POWER VISA</span>
                         </div>
                     </div>
